@@ -1,8 +1,8 @@
 # txt-adventure-shell
 Version: 1.00    
 
-A shell for text adventure games that is designed to be simple, flexible,
-and allow for some advanced functionality.
+A shell for text adventure games that is designed to be simple and flexible    
+but allow for some advanced functionality.
 
 ## Status
 Stable.
