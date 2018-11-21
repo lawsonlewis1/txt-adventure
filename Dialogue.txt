@@ -1,0 +1,139 @@
+# Formatting:
+#
+# Comments must be on their own line and begin with the '#' character.
+#
+# The end of each scene is designated by the [CUT] keyword.
+#
+# player stats can be increased/decreased at any time just write the
+# name of the stat, +/- and the amount on a single line. It will be printed
+# so the player knows it happened. Example:
+#
+#       defense + 10
+#
+# To create a choice scene use the [CHOICE] keyword. and include the following
+# in this order exactly:
+#       [CHOICE]
+#       question body
+#
+#       yes>
+#       body of response if user selects yes.
+#
+#       attack + 1
+#
+#       no>
+#       body of response if user selects no.
+#
+#       attack - 1
+#
+#       [CUT]
+# To create a puzzle scene use the [PUZZLE] keyword and include the following
+# in this order exactly:
+#       [PUZZLE]
+#       body of puzzle
+#
+#       hint>
+#       first hint
+#       second hint
+#       third hint
+#
+#       answer>
+#       answer phrase
+#
+#       attempts>
+#       5 
+#
+#       prize>
+#       health + 1
+#
+#       penalty>
+#       health - 1
+#
+#       [CUT]
+
+#----------------------------------------Scene---------------------------------------#
+#
+
+Welcome to the Tutorial:
+
+To view your current player stats type 'stats'.
+
+[CUT]
+#----------------------------------------Scene---------------------------------------#
+#
+To save your progress type 'save'.
+
+[CUT]
+#----------------------------------------Scene---------------------------------------#
+#
+To quit the game type 'quit'.
+
+[CUT]
+#----------------------------------------Scene---------------------------------------#
+#
+To view all the available commands type 'help'.
+
+[CUT]
+#----------------------------------------Scene---------------------------------------#
+#
+This is a filler scene. Nothing to see here.
+
+[CUT]
+#----------------------------------------Scene---------------------------------------#
+#
+This scene has rewards. Go on you've earned it.
+
+health - 1
+attack + 5
+defense + 1
+magic + 1
+[CUT]
+#----------------------------------------Scene---------------------------------------#
+#
+[CHOICE]
+This scene has a choice, will you do the right thing?
+
+yes>
+Hooray you are amazing!
+
+health + 10
+
+no>
+wtf dude?
+
+health - 10
+
+[CUT]
+#----------------------------------------Scene---------------------------------------#
+#
+[PUZZLE]
+This is a puzzle scene. Much difficulty wow. Such confuse.
+        Plz type anser...
+
+hint>
+D
+O
+G
+E
+
+answer>
+doge
+
+attempts>
+2
+
+prize>
+WOW WOW WOW
+magic + 1
+
+penalty>
+Much Dissapoint :'(
+magic - 1
+
+
+[CUT]
+#----------------------------------------Scene---------------------------------------#
+#
+This is the last scene. You did it!
+Sad that it's over. Farewell.
+
+[CUT]
