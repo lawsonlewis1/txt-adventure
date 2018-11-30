@@ -40,7 +40,7 @@
 #       answer phrase
 #
 #       attempts>
-#       5 
+#       5
 #
 #       prize>
 #       health + 1
@@ -81,8 +81,9 @@ This is a filler scene. Nothing to see here.
 #----------------------------------------Scene---------------------------------------#
 #
 This scene has rewards. Go on you've earned it.
+(Type 'stats' to revel in your glorious new upgrades)
 
-health - 1
+health + 1
 attack + 5
 defense + 1
 magic + 1
@@ -91,6 +92,7 @@ magic + 1
 #
 [CHOICE]
 This scene has a choice, will you do the right thing?
+(yes/no)
 
 yes>
 Hooray you are amazing!
@@ -108,6 +110,8 @@ health - 10
 [PUZZLE]
 This is a puzzle scene. Much difficulty wow. Such confuse.
         Plz type anser...
+
+(Press enter for hints)
 
 hint>
 D
