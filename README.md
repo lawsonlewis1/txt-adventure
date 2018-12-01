@@ -17,19 +17,19 @@ Future updates:
 
 ## Features
 
-    Character Stats
-    Easily create, set, and modify custom player stats throughout the game.
+__Character Stats__  
+Easily create, set, and modify custom player stats throughout the game.
 
-    Saveable
-    The player can save their progress at any time and easily pick up
-    where they left off.
+__Saveable__  
+The player can save their progress at any time and easily pick up
+where they left off.
 
-    Choices
-    Offer the player a yes/no choice with a unique outcome for each response.
+__Choices__  
+Offer the player a yes/no choice with a unique outcome for each response.
 
-    Puzzles
-    Create a riddle/puzzle for the player with consequences/rewards.
-    Easily set the number of attempts and optionally provide hints.
+__Puzzles__  
+Create a riddle/puzzle for the player with consequences/rewards.
+Easily set the number of attempts and optionally provide hints.
 
 ## Installation
 
