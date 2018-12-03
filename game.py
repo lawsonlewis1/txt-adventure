@@ -309,14 +309,13 @@ def play_puzzle_scene(scene):
     attempts = int(scene[scene.index('attempts>')+1])
     prize = scene.index('prize>')
     penalty = scene.index('penalty>')
-    attempt = 1
 
     [print(line) for line in scene[0:hint]]
     while PLAY is True:
-        if attempt > attempts:
+        if attempts < 0:
             print_scene(scene[penalty+1:])
             break
-        print('    Attempt {}'.format(attempt))
+        print('    Attempts Remaining {}'.format(attempts))
         choice = prompt()
         if choice == answer:
             print_scene(scene[prize+1:penalty])
@@ -328,7 +327,7 @@ def play_puzzle_scene(scene):
             else:
                 print('No more hints for you!')
         else:
-            attempt += 1
+            attempts -= 1
 
 
         
