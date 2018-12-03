@@ -312,7 +312,7 @@ def play_puzzle_scene(scene):
 
     [print(line) for line in scene[0:hint]]
     while PLAY is True:
-        if attempts < 0:
+        if attempts < 1:
             print_scene(scene[penalty+1:])
             break
         print('    Attempts Remaining {}'.format(attempts))
