@@ -35,7 +35,7 @@ Easily set the number of attempts and optionally provide hints.
 
 The project is composed of the python script 'txt_game.py', which is the functional shell of the game, and the 'Dialogue.txt' file which contains the games dialogue and player rewards.
 
-To get it to run download both of these files, put them in the same directory and then run the txt_game.py file as a python script by typing the following command at the prompt.
+To get it to run download both the 'game.py' and 'Dialogue.txt' files, put them in the same directory and then run the txt_game.py file as a python script by typing the following command at the prompt.
 
     python txt_game.py
 
