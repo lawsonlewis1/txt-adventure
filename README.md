@@ -37,7 +37,7 @@ The project is composed of the python script 'txt_game.py', which is the functio
 
 To get it to run download both the 'game.py' and 'Dialogue.txt' files, put them in the same directory and then run the txt_game.py file as a python script by typing the following command at the prompt.
 
-    python txt_game.py
+    python game.py
 
 The game is written in python 3.6, im not sure if previous python 3 distributions will work but they probably will, python 2 will not work.
 
